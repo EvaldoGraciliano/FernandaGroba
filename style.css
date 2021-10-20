@@ -14,7 +14,12 @@ Itens individuais na vertical --> align-self-center
   height: 400px;
 }
 
-
+.subtitulonomeas15 {
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  font-weight:300;
+}
 
 .cores {
   color: white;
@@ -115,3 +120,8 @@ Itens individuais na vertical --> align-self-center
   
 }
 
+/* estilizaçao contatao */
+.twhatsapp{
+  color: green;
+font-size: 90px;
+}
