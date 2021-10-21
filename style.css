@@ -11,7 +11,7 @@ Itens individuais na vertical --> align-self-center
 }
 
 .tamanhoimglogo {
-  height: 400px;
+
 }
 
 .subtitulonomeas15 {
@@ -138,7 +138,7 @@ a:hover {
 }
 
 
-/* animações */
+/* animações
 
 .animartitulo{
   animation-name: slide;
@@ -159,3 +159,4 @@ a:hover {
     opacity:1;
   }
 }
+ */
