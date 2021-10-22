@@ -10,8 +10,8 @@ Itens individuais na vertical --> align-self-center
   background-color: #d266a9;
 }
 
-.tamanhoimglogo {
-
+.tamanhoimglogo{
+  max-height: 600px;
 }
 
 .subtitulonomeas15 {
@@ -97,6 +97,12 @@ Itens individuais na vertical --> align-self-center
   line-height: 1;
 }
 
+
+.imgdepoimento{
+  max-width: 200px;
+  margin:auto;
+}
+
 .nomedepoimento{
   font-size: 1.5rem;
 }
@@ -138,11 +144,11 @@ a:hover {
 }
 
 
-/* animações
+ animações
 
 .animartitulo{
   animation-name: slide;
-  animation-duration:3s ;
+  animation-duration:7s ;
 }
 
 .animarsubtitulo {
@@ -159,4 +165,39 @@ a:hover {
     opacity:1;
   }
 }
- */
+
+
+ @media (min-width:766px){
+   .imgdepoimento {
+   max-width: 200px;
+   
+   }
+
+   .tablet {
+     max-width:500px;
+     margin: 0 auto;
+     
+   }
+
+  .paddind {
+    padding-left: 50px;
+  }
+
+  .subtitulonome{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:3rem;
+    color:rgb(28, 27, 27);
+    line-height: 1;
+    text-align:center;
+    font-weight: bold;
+   }
+
+ 
+.subtitulonomeas15 {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  font-weight:300;
+}
+
+ }
