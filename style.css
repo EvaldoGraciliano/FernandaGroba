@@ -151,11 +151,14 @@ a:hover {
 }
 
 
- animações
+ 
 
 .animartitulo{
   animation-name: slide;
   animation-duration:7s ;
+  transform: translateX(-180px);
+  animation-fill-mode: forwards;
+
 }
 
 .animarsubtitulo {
@@ -169,6 +172,7 @@ a:hover {
     opacity: 0;
   }
   to {
+    transform: translateX(0);
     opacity:1;
   }
 }
