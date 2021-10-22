@@ -6,6 +6,12 @@ Itens individuais na vertical --> align-self-center
 */
 
 /* estlizaçao do topo */
+
+html, body {
+  overflow-x: hidden;
+  overflow-x: scroll;
+}
+
 .logo {
   background-color: #d266a9;
 }
